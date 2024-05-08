@@ -3,53 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FeedBack Info</title>
+    <title>Lab 8</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Feedback</h1>
-    </header>
-    <main>
-        <form>
-            <div>
-                <h2>First Name</h2>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            </div>
-            <div>
-                <h2>Feedback</h2>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
-            </div>
-            <div>
-                <h2>Which Country Feedback from</h2>
-                <label for="country">Country:</label>
-                <select id="country" name="country">
-                    <option value="usa">United States</option>
-                    <option value="canada">Canada</option>
-                    <option value="uk">United Kingdom</option>
-                    <option value="australia">Australia</option>
-                </select>
-            </div>
-            <div>
-                <h2>Rate Feedback</h2>
-                <input type="radio" id="Great" name="Rate" value="Great">
-                <label for="Great">Great</label><br>
-                <input type="radio" id="Good" name="Rate" value="Good">
-                <label for="Good">Good</label><br>
-                <input type="radio" id="Bad" name="Rate" value="Bad">
-                <label for="Bad">Bad</label>
-            </div>
-            <div>
-                <h2>Subscribe</h2>
-                <input type="checkbox" id="subscribe" name="subscribe">
-                <label for="subscribe">Subscribe to the newsletter</label>
-            </div>
-            <div>
-                <button type="submit">Submit</button> <!-- Submission button -->
-            </div>
-        </form>
-    </main>
+    <form action="Don.jpg" method="post">
+        <div>
+            <label for="FSTName">First Name</label>
+            <input type="text" id="FSTName" name="FSTName" placeholder="First Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="LSTName">Last Name</label>
+            <input type="text" id="LSTName" name="LSTName" placeholder="Last Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="word">Password:</label>
+            <input type="password" id="word" name="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@gmail.com">
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="213-678-6555">
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
 </body>
 </html>
